@@ -1,6 +1,6 @@
 # pca_isomap
 Implementation of dimensionality reduction and non-linear mapping to arrange and group similar images.
-ISOMAP procedure involves establishing connectivity between datapoints within an arbitrarily picked distance and mapping the datapoints to lower dimension preserving the distance between connected datapoints.
+ISOMAP procedure involves establishing connectivity between datapoints within an arbitrarily picked distance and mapping the datapoints to lower dimension preserving the geodesic distance between connected datapoints. 
 
 It has been shown that similarity between faces and their face angle can be captured using ISOMAP in higher quality compared to PCA decomposition.
 
